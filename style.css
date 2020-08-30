@@ -1,0 +1,123 @@
+body {
+  background-image: url(images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #c0c0c0;
+}
+.attribution a {
+  color: #888888;
+}
+section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  gap: 20px;
+  color: #ffffff;
+  padding-top: 70px;
+}
+
+h1 {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  /* padding-right: 40rem; */
+}
+
+h4,
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.logo {
+  padding-left: 120px;
+  width: 150px;
+}
+
+.btn {
+  outline: none;
+  padding: 15px;
+  color: hsl(257, 40%, 49%);
+  font-weight: 700;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.3s ease 0s;
+}
+.btn:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+  color: #ffffff;
+  background-color: hsl(257, 45%, 49%);
+}
+
+.icon {
+  font-size: 15px;
+  color: #ffffff;
+  text-align: end;
+  padding-right: 15%;
+  padding-top: 10%;
+}
+
+i {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 1em;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+
+i:hover {
+  background-color: hsl(257, 45%, 49%);
+  border: 1px solid hsl(257, 45%, 49%);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+div > .icon,
+a {
+  color: #ffffff;
+}
+
+@media (max-width: 786px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    padding-left: 50px;
+  }
+  .btn {
+    width: 30%;
+    text-align: center;
+  }
+  .icon {
+    text-align: center;
+  }
+}
